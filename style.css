@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.heroimg{
+    width: 5rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width:375px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h1{
+    color: hsl(223, 100%, 88%);
+    font-size: larger;
+}
+.clrchange{
+    color: black;
+    font-size: x-large;
+}
+p{
+    font-weight:300;
+    font-size: small;
+}
+#mail-input{
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid grey;
+    padding: 10px;
+    font-weight: 200;
+}
+#input-btn{
+    padding: 5px 20px 5px 20px;
+    border-radius:50px;
+    width: 100%;
+    background-color: rgb(68, 115, 246);
+    color: white;
+    font-weight: 700;
+}
+.site-preview{
+    width: 100%;
+}
+#input-btn:hover{
+    cursor: pointer;
+}
+#errormsg{
+    color: red;
+}
+.error{
+    border: 2px solid red !important;
+}
+#donemsg{
+    color: green;
+    font-weight: 700;
+}
+
+@media only screen and (min-width:700px){
+    .hero{
+        width: 600px;
+    }
+    .heroimg{
+        width: 3rem;
+    }
+    .input-cont{
+        display: flex;
+        gap: 5px;
+    }
+    #mail-input{
+        flex: 1;
+    }
+    #input-btn{
+        width: auto;
+        padding:10px 20px;
+    }
+    #error-msg{
+        font-size: xx-small;
+    }
+
+}
