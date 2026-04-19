@@ -16,7 +16,7 @@ body{
     width:375px;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 h1{
     color: hsl(223, 100%, 88%);
@@ -55,7 +55,7 @@ p{
     color: red;
 }
 .error{
-    border: 2px solid red !important;
+    border: 2px solid red ;
 }
 #donemsg{
     color: green;

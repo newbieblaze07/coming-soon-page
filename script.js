@@ -17,6 +17,7 @@ inputBtn.addEventListener("click",function(){
         errorMsg.textContent="Please provide a valid email address"
         inputEl.classList.add("error")
     }else{
+        errorMsg.textContent=""
         doneMsg.textContent="we'll notify you soon"
         inputEl.classList.remove("error")
     }
