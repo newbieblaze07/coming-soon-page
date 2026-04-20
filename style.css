@@ -121,5 +121,10 @@ p {
     #error-msg {
         font-size: xx-small;
     }
+    footer{
+        margin: 10px 0 0 0;
+        display: flex;
+        gap: 20px;
+    }
 
 }
